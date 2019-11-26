@@ -244,6 +244,7 @@ a {
   position: absolute;
   left: 0;
   bottom: -70px;
+  z-index: 2;
 }
 
 .wave-up {
@@ -253,6 +254,13 @@ a {
   background-image: url(./images/mobile_wave_up.svg);
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.detox__title-block__leaf {
+  position: absolute;
+  height: 69px;
+  top: -50px;
+  left: 46px;
 }
 
 .content-background {
@@ -283,7 +291,8 @@ a {
 }
 
 .content__block {
-  margin: 0 5.31vw;
+  position: relative;
+  margin: 90px 5.31vw 0;
   display: grid;
   grid-template-rows: auto;
 
