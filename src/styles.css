@@ -236,7 +236,18 @@ a {
   text-align: center;
 }
 
+.help-block {
+  position: relative;
+}
+
+.leaf-near-info-button {
+  position: absolute;
+  left: 0;
+  bottom: -70px;
+}
+
 .wave-up {
+  position: relative;
   padding-top: 20px;
   height: 82px;
   background-image: url(./images/mobile_wave_up.svg);
@@ -324,6 +335,22 @@ a {
   padding-bottom: 50px;
 }
 
+.detox__title {
+  position: relative;
+}
+
+.detox__title__leaf-left {
+  position: absolute;
+  top: -90px;
+  left: 8px;
+}
+
+.detox__title__leaf-right {
+  position: absolute;
+  top: -80px;
+  right: 0;
+}
+
 .detox__title-block h2 {
   margin: 80px auto 0;
   width: 84vw;
@@ -396,6 +423,12 @@ a {
   .detox__reason:nth-of-type(5) {
     margin-top: 8px;
   }
+}
+
+.reviews__title__leaf {
+  position: absolute;
+  top: -17px;
+  left: 0;
 }
 
 .rewiew__card-title {
@@ -633,7 +666,26 @@ a {
 }
 
 .buy-block {
+  position: relative;
   margin: 0 auto;
+}
+
+.leaf_find_left_up {
+  position: absolute;
+  top: -45px;
+  left: 14px;
+}
+
+.leaf_find_right_center {
+  position: absolute;
+  top: 85px;
+  right: 0;
+}
+
+.leaf_find_left_down {
+  position: absolute;
+  bottom: -28px;
+  left: 0;
 }
 
 .buy-title {
@@ -667,8 +719,7 @@ a {
 
 .sel,
 .more {
-  margin: 0 5.3vw;
-  width: 100%;
+  margin-left: 5.3vw;
 }
 
 .submit-form {
@@ -682,12 +733,17 @@ input.select2-search__field {
   color: transparent;
 }
 
+.select2-container .select2-search--inline .select2-search__field::placeholder {
+  font-size: 14px;
+  line-height: 120%;
+}
+
 .select2-container--default .select2-selection--multiple::after {
   position: absolute;
   content: url(./images/arrow-down.svg);
   background-repeat: no-repeat;
   width: 12px;
-  right: 33px;
+  right: 5px;
   top: 5%;
 }
 
